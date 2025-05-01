@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fittness Gym Recurrent</title>
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!-- Google Fonts (Noto Sans Japanese) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet" />
+    <!-- my style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <h1 class="logo">ロゴ</h1>
+        <div class="header-inner">
+          <p class="page-title">グランドオープン</p>
+          <p>
+            <time datetime="2025-07-01 10:00"><span>2025.7.1(木)</span> <br class="sp-only" />AM10時</time>オープン
+          </p>
+          <p>24時間営業</p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="campaign">
+        <div class="wrapper">
+          <h2>夏のキャンペーン</h2>
+          <ul class="campaign-list">
+            <li>入会金0円</li>
+            <li>初月<br />月会費0円</li>
+          </ul>
+          <p class="campaign-text">
+            新規入会の方はいつでも<em><span>水素水サーバー</span> <span>+</span> <span>プロテインサーバー</span></em
+            >(2ヶ月無料)
+          </p>
+        </div>
+      </section>
+      <section class="point">
+        <div class="wrapper">
+          <h2>5つのポイント</h2>
+          <ul class="point-list">
+            <li>
+              <h3 data-sub="gym-area">ジムエリア</h3>
+              <p>最新マシンを導入した充実のジムエリア</p>
+            </li>
+            <li>
+              <h3 data-sub="fit-aero">フィットエアロ</h3>
+              <p>音楽と映像に合わせて楽しむバーチャルヒットネススタジオ</p>
+            </li>
+            <li>
+              <h3 data-sub="self-esthe">セルフエステ</h3>
+              <p>全身使えるオールインワンのプロ仕様高級マシン！</p>
+            </li>
+            <li>
+              <h3 data-sub="fit-sauna">フィットサウナ</h3>
+              <p>個室サウナで心身をリフレッシュ！</p>
+            </li>
+            <li>
+              <h3 data-sub="o2 room">O2ルーム</h3>
+              <p>疲労回復を促進！高濃度酸素ルーム完備</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="wrapper">
+          <h2>お問い合わせ</h2>
+          <form action="#" method="post">
+            <div class="form-item"><label for="customer-name" class="form-label">お名前</label><input type="text" name="customer-name" id="customer-name" placeholder="名字 名前" required /></div>
+            <div class="form-item"><label for="customer-kana" class="form-label">ふりがな</label><input type="text" name="customer-kana" id="customer-kana" placeholder="みょうじ なまえ" required /></div>
+            <div class="form-item"><label for="tel" class="form-label">電話番号</label><input type="tel" name="tel" id="tel" placeholder="ハイフンなし・半角数字" required /></div>
+            <div class="form-item"><label for="email" class="form-label">メールアドレス</label><input type="email" name="email" id="email" placeholder="sample@recurrent.jp" /></div>
+            <div class="form-item">
+              <p class="form-label">ご希望のプラン</p>
+              <div class="check-item-wrapper">
+                <div class="check-item"><input type="radio" name="plan" id="plan1" checked required /><label for="plan1">ご見学</label></div>
+                <div class="check-item"><input type="radio" name="plan" id="plan2" /><label for="plan2">パーソナル無料体験</label></div>
+                <div class="check-item"><input type="radio" name="plan" id="plan3" /><label for="plan3">カウンセリング</label></div>
+              </div>
+            </div>
+            <div class="form-item"><label for="message" class="form-label">お問い合わせ内容</label><textarea name="message" id="message" placeholder="メッセージをご入力ください"></textarea></div>
+            <div class="button-container">
+              <input type="submit" value="送信" class="button" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="access">
+        <div class="wrapper">
+          <h2>アクセス</h2>
+          <div class="access-inner">
+            <div class="map">
+              <iframe title="fittness gym recurrent map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.4211699433645!2d130.39044091222763!3d33.59437507322158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541913a138f36f9%3A0xfc9028c55a16960f!2z5Ym16YCg56S-44Oq44Kr44Os44Oz44OI44K544Kv44O844OrIOemj-WyoeagoQ!5e0!3m2!1sja!2sjp!4v1746071246003!5m2!1sja!2sjp" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <section>
+              <h3>住所</h3>
+              <address>
+                <p>郵便番号810-0072</p>
+                <p>福岡県福岡市中央区長浜1丁目4版13号SF福岡ビル6階</p>
+              </address>
+            </section>
+            <section>
+              <h3>電話</h3>
+              <address>092-401-1835</address>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <small>&copy; recurrent 2025</small>
+    </footer>
+  </body>
+</html>
