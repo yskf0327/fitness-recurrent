@@ -214,6 +214,10 @@ textarea {
   margin-bottom: 24px;
 }
 
+.access address p {
+  line-height: 1;
+}
+
 .access-inner {
   display: grid;
   grid-template-columns: 1fr;
@@ -221,7 +225,7 @@ textarea {
 }
 
 .access section {
-  width: 18em;
+  /* width: 18em; */
   margin: 0 auto;
 }
 
@@ -307,10 +311,22 @@ footer {
     gap: 40px;
   }
 
+  .access h3 {
+    text-align: left;
+  }
+
   .access-inner {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     gap: 56px;
+  }
+
+  .access section {
+    width: 100%;
+  }
+
+  .access section:nth-of-type(2) {
+    text-align: left;
   }
 
   .map {
