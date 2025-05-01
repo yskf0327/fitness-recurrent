@@ -304,6 +304,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
+    gap: 40px;
   }
 
   .access-inner {
